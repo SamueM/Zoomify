@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Zoomify</title>
+	<link rel="stylesheet" href="css/micss.css">
+	<link rel="stylesheet" href="css/zoomify.min.css">
+</head>
+<body>
+	<br>
+	<div class="container">
+		
+		<img src="img/1.jpg" alt="dungeon" class="zoomify">
+		<img src="img/2.jpg" alt="dungeon" class="zoomify">
+		<img src="img/3.jpg" alt="dungeon" class="zoomify">
+		<img src="img/4.jpg" alt="dungeon" class="zoomify">
+		<img src="img/5.jpg" alt="dungeon" class="zoomify">
+
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/zoomify.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".zoomify").zoomify();
+		});
+	</script>
+</body>
+</html>
